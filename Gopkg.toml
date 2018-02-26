@@ -32,3 +32,8 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[metadata.heroku]
+  root-package = "github.com/RonanPearce/food-diary"
+  go-version = "go1.10"
+  install = [ "./..." ]
